@@ -1,19 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import HeroSection from "./components/home/HeroSection";
 
 function App() {
   return (
-    
-      <div className="flex flex-col min-h-screen">
-        <Navbar />
-        
-          <Routes>
-            <Route path="/" element={<Home />} />
-          </Routes>
-       
-        <Footer />
-      </div>
-   
+    <div className="flex flex-col min-h-screen">
+      <HeroSection />
+    </div>
   );
 }
 
