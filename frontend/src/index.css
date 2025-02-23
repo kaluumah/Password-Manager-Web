@@ -18,7 +18,9 @@ body {
   min-height: 100vh;
   
 }
-
+nav {
+  gap:5;
+}
 .navlinks {
   font-size:1.1rem;
 }
