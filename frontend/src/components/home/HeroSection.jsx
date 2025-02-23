@@ -7,7 +7,7 @@ function HeroSection() {
     <section className="flex justify-center items-center">
       <div className="py-10">
         <nav className=" flex justify-center items-center shadow-lg  px-15 py-3">
-          <div className="leftnavlogoside flex items-center mr-30 cursor-pointer">
+          <div className="leftnavlogoside flex items-center mr-40 cursor-pointer">
             <img src={logo} className="w-13 h-13" />
             <span className="text-white text-2xl">CycleCipher</span>
           </div>
@@ -18,7 +18,7 @@ function HeroSection() {
           <a href="#integrations" className="navlinks text-gray-300 hover:text-white">Integrations</a>
           <a href="#pricing" className="navlinks text-gray-300 hover:text-white">Pricing</a>
           <a href="#blog" className="navlinks text-gray-300 hover:text-white">Blog</a>
-          <button className="text-2xl bg-purple-800 text-white px-4 py-2 rounded-lg hover:bg-purple-700 ml-30 cursor-pointer">
+          <button className="navbarbutton text-1xl bg-purple-800 text-white px-4 py-2 rounded-lg hover:bg-purple-700 ml-40 cursor-pointer">
             Join Waitlist
           </button>
         </div>

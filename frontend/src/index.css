@@ -22,6 +22,7 @@ nav {
   border-radius: 25px 25px;
 }
 
-.navlinks {
+.navlinks, .navbarbutton {
   font-size:1.2rem;
 }
+
