@@ -1,18 +1,28 @@
 import React from "react";
+import logo from "./../../assets/logo.svg";
 
 // src/components/HomePage/HeroSection
 function HeroSection() {
-    return (
-      <section className="flex flex-col items-center justify-center text-center py-20 ">
-        <h1 className="text-5xl font-bold text-gray-900 mb-4">Welcome to Our Platform</h1>
-        <p className="text-lg text-gray-700 mb-6">
-          Discover innovative solutions and secure your digital world.
-        </p>
-        <button className="px-6 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-700 transition">
-          Get Started
-        </button>
-      </section>
-    );
-  }
-  
-  export default HeroSection;
+  return (
+    <section className="flex  items-center justify-center text-center py-20 ">
+      <nav className="flex items-center justify-between px-8 py-4">
+        <div className="logoleft flex items-center ">
+          <img src={logo} className="w-10 h-10" />
+          <span>CycleCipher</span>
+        </div>
+        <div>
+          <ul className="hidden md:flex space-x-20 font-medium text-white">
+            <li className="navlinks">About</li>
+            <li className="navlinks">Features</li>
+            <li className="navlinks">Integrations</li>
+            <li className="navlinks">Pricing</li>
+            <li className="navlinks">Blog</li>
+          </ul>
+        </div>
+      </nav>
+      <div></div>
+    </section>
+  );
+}
+
+export default HeroSection;

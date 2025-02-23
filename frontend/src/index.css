@@ -18,3 +18,13 @@ body {
   min-height: 100vh;
   
 }
+
+.navlinks {
+  font-size:1.1rem;
+}
+.navlogotext, .navwaitlist {
+  font-size:1.3rem;
+}
+.navlinks, .navlogo, .navwaitlist {
+  cursor: pointer;
+}
