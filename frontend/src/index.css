@@ -38,11 +38,8 @@ nav {
 /************END OF THE NAVBAR STYLING*********/
 
 .mvpreleasenotif {
-  
-  border-radius: 25px 25px;
+  width: 300px; /* Must have a width */
   margin: 0 auto;
-  /*margin-top:30px;
-  padding-top: 10px;
-  padding-bottom: 10px;*/
+  
 
 }

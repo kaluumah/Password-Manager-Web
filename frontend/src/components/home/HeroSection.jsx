@@ -7,9 +7,12 @@ const HeroSection = () => {
       <div>
         <Navbar /> {/* Navbar Component */}
       </div>
-      <div className=" mvpreleasenotif flex justify-center items-center align-middle text-white gap-5  ">
-        <span className="justify-center items-center bg-purple-800 mt-3 border border-gray-300 rounded-lg ">MVP C 1.0 Release</span>
-      </div>
+
+      <div class="flex justify-center items-center mt-10">
+  <button class="mvpreleasenotif items-center bg-purple-800 text-white px-4 py-2 rounded-lg hover:bg-purple-700">
+  MVP C 1.0 Release Coming Soon
+  </button>
+</div>
     </section>
   );
 };

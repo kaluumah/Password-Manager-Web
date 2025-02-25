@@ -15,7 +15,7 @@ function HeroSection() {
           </div>
 
           {/* Navigation Links */}
-          <div className="hidden md:flex  items-center space-x-20">
+          <div className="hidden md:flex  items-center space-x-20 ">
             {["About", "Features", "Integrations", "Pricing", "Blog"].map(
               (item) => (
                 <a
@@ -24,7 +24,7 @@ function HeroSection() {
                   className="navlinks relative text-gray-300 hover:text-white transition duration-300 
                          before:absolute before:inset-0 before:bg-purple-800 before:opacity-0 before:rounded-md 
                          before:transition-all before:duration-300 before:scale-0 
-                         hover:before:opacity-40 hover:before:scale-100 px-4 py-2"
+                         hover:before:opacity-40 hover:before:scale-100 px-4 py-2 hover:underline"
                 >
                   {item}
                 </a>
