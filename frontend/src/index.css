@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@media (max-width: 768px) {
+  .responsive-div {
+    flex-direction: column;
+    padding: 1em;
+    justify-content: center;
+  }
+}
+
 
 :root {
   font-family: "Satoshi", sans-serif;

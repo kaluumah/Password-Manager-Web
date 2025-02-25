@@ -30,16 +30,16 @@ function HeroSection() {
                 </a>
               )
             )}
-            <button className="bg-purple-800 text-white px-4 py-2 rounded-lg hover:bg-purple-700">
+            <button className="navbarbutton bg-purple-800 text-white px-4 py-2 rounded-lg hover:bg-purple-700 cursor-pointer">
               Join Waitlist
             </button>
-          </div>
-          
-          
-        </nav>
-        
-      </div>
+
       
+
+            
+          </div>
+        </nav>
+      </div>
     </section>
   );
 }
