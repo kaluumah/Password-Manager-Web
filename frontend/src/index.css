@@ -160,3 +160,10 @@ nav {
 }
 
 /* ===== END OF RESPONSIVE DESIGN ===== */
+
+
+/* ===== About Section Begining ===== */
+.aboutsection{
+  width: 200px; /* Must have a width */
+  margin: 0 auto;
+}
