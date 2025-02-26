@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400&display=swap" rel="stylesheet">
+
 @media (max-width: 768px) {
   .responsive-div {
     flex-direction: column;
@@ -40,6 +45,123 @@ nav {
 .mvpreleasenotif {
   width: 300px; /* Must have a width */
   margin: 0 auto;
+}
+.herotextdiv {
+  width: 1000px;
+  margin: 0 auto;
+}
+.herotext {
+  font-size: 80px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   
+}
 
+
+
+
+
+
+***************************************************
+
+/* ===== RESPONSIVE DESIGN ===== */
+
+/* Large desktop screens (96rem / 1536px and up) */
+@media (width >= 96rem) {
+  .herotextdiv {
+    width: 1200px;
+  }
+  
+  .herotext {
+    font-size: 90px;
+  }
+}
+
+/* Desktop screens (80rem / 1280px to 96rem / 1536px) */
+@media (width >= 80rem) and (width < 96rem) {
+  .herotextdiv {
+    width: 1000px;
+  }
+  
+  .herotext {
+    font-size: 80px;
+  }
+}
+
+/* Small desktop / laptop screens (64rem / 1024px to 80rem / 1280px) */
+@media (width >= 64rem) and (width < 80rem) {
+  .herotextdiv {
+    width: 900px;
+  }
+  
+  .herotext {
+    font-size: 70px;
+  }
+}
+
+/* Tablet landscape screens (48rem / 768px to 64rem / 1024px) */
+@media (width >= 48rem) and (width < 64rem) {
+  .herotextdiv {
+    width: 700px;
+  }
+  
+  .herotext {
+    font-size: 60px;
+  }
+  
+  .navlinks, .navbarbutton {
+    font-size: 1rem;
+  }
+}
+
+/* Tablet portrait screens (40rem / 640px to 48rem / 768px) */
+@media (width >= 40rem) and (width < 48rem) {
+  .herotextdiv {
+    width: 500px;
+  }
+  
+  .herotext {
+    font-size: 50px;
+  }
+  
+  .navlinks, .navbarbutton {
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile screens (below 40rem / 640px) */
+@media (width < 40rem) {
+  .herotextdiv {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .herotext {
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .navlinks, .navbarbutton {
+    font-size: 0.8rem;
+  }
+  
+  .responsive-div {
+    flex-direction: column;
+    padding: 1em;
+    justify-content: center;
+  }
+  
+  nav {
+    border-radius: 15px 15px;
+  }
+  
+  .mvpreleasenotif {
+    width: 80%;
+  }
+}
+
+/* Special adjustment for very small screens (below 25rem / 400px) */
+@media (width < 25rem) {
+  .herotext {
+    font-size: 30px;
+  }
 }
