@@ -1,14 +1,32 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "./../../assets/logo.svg";
 
 // src/components/HomePage/HeroSection
 function HeroSection() {
-  
+  const [scrolling, setScrolling] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+    
   return (
     <section className="flex justify-center items-center  w-full">
       <div className="py-10 container mx-auto">
-        <nav className=" flex justify-center items-center shadow-lg  px-15 py-3">
+        <nav className={`fixed top-3  flex justify-center items-center shadow-lg  px-15 py-3 transition-all duration-300 
+          ${scrolling ? " backdrop-blur-md shadow-lg" : "bg-transparent"}`} >
+          
           <div className="leftnavlogoside flex items-center mr-40 cursor-pointer">
             <img src={logo} className="w-13 h-13" />
             <span className="text-white text-2xl">CycleCipher</span>

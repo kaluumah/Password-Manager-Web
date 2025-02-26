@@ -39,8 +39,8 @@ nav {
 .navlinks, .navbarbutton {
   font-size:1.2rem;
 }
-
 /************END OF THE NAVBAR STYLING*********/
+
 
 .mvpreleasenotif {
   width: 300px; /* Must have a width */
@@ -55,13 +55,6 @@ nav {
   font-family: 'Plus Jakarta Sans', sans-serif;
   
 }
-
-
-
-
-
-
-***************************************************
 
 /* ===== RESPONSIVE DESIGN ===== */
 
@@ -165,3 +158,5 @@ nav {
     font-size: 30px;
   }
 }
+
+/* ===== END OF RESPONSIVE DESIGN ===== */
