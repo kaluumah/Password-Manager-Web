@@ -9,7 +9,7 @@ const HeroSection = () => {
         <Navbar /> {/* Navbar Component */}
       </div>
 
-      <div class=" flex justify-center items-center mt-15 ">
+      <div class=" flex justify-center items-center mt-20 ">
         <button class="btn cube cube-hover" type="button">
           <div class="bg-top">
             <div class="bg-inner"></div>
