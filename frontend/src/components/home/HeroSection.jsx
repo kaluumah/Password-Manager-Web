@@ -9,11 +9,27 @@ const HeroSection = () => {
         <Navbar /> {/* Navbar Component */}
       </div>
 
-      <div class="flex justify-center items-center mt-15">
-        <button class="mvpreleasenotif items-center bg-purple-800 text-white px-4 py-2 rounded-lg hover:bg-purple-700">
-          MVP C 1.0 Release Coming Soon
-        </button>
+      <div class=" flex justify-center items-center mt-15 ">
+      <button class="btn cube cube-hover" type="button">
+  <div class="bg-top">
+    <div class="bg-inner"></div>
+  </div>
+  <div class="bg-right">
+    <div class="bg-inner"></div>
+  </div>
+  <div class="bg">
+    <div class="bg-inner"></div>
+  </div>
+  <div class="text">MVP C 1.0 Release Coming Soon</div>
+</button>
+
+        
       </div>
+    
+
+
+
+
 
       <div className=" herotextdiv flex text-center text-white ">
         <h1 className=" herotext mt-15 font-semibold inline-block">
