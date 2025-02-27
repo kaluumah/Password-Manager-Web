@@ -36,9 +36,7 @@ const AboutSection = () => {
       {/* Main About Section  content*/}
       <div>
         <div className="abouttitle flex justify-center items-center">
-          <h6 className=" text-2l text-white">
-            About 
-          </h6>
+          <h6 className=" text-2l text-white">About</h6>
         </div>
       </div>
     </section>

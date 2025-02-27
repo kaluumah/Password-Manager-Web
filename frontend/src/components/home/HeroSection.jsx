@@ -10,26 +10,19 @@ const HeroSection = () => {
       </div>
 
       <div class=" flex justify-center items-center mt-15 ">
-      <button class="btn cube cube-hover" type="button">
-  <div class="bg-top">
-    <div class="bg-inner"></div>
-  </div>
-  <div class="bg-right">
-    <div class="bg-inner"></div>
-  </div>
-  <div class="bg">
-    <div class="bg-inner"></div>
-  </div>
-  <div class="text">MVP C 1.0 Release Coming Soon</div>
-</button>
-
-        
+        <button class="btn cube cube-hover" type="button">
+          <div class="bg-top">
+            <div class="bg-inner"></div>
+          </div>
+          <div class="bg-right">
+            <div class="bg-inner"></div>
+          </div>
+          <div class="bg">
+            <div class="bg-inner"></div>
+          </div>
+          <div class="text">MVP C 1.0 Release Coming Soon</div>
+        </button>
       </div>
-    
-
-
-
-
 
       <div className=" herotextdiv flex text-center text-white ">
         <h1 className=" herotext mt-15 font-semibold inline-block">
@@ -38,9 +31,9 @@ const HeroSection = () => {
         </h1>
       </div>
       <div className=" flex items-center justify-center p-4 mt-20 ">
-      <div className="border rounded-lg ">
-      <img src={heroimage} className="w-300 " />
-      </div>
+        <div className="border rounded-lg ">
+          <img src={heroimage} className="w-300 " />
+        </div>
       </div>
     </section>
   );
