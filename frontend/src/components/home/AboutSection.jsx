@@ -38,6 +38,28 @@ const AboutSection = () => {
         <div className="abouttitle flex justify-center items-center">
           <h6 className=" text-2l text-white">About</h6>
         </div>
+        <div className="flex justify-center items-center mt-10">
+          <h1 className="abouttitletext text-white font-semibold">
+            Everything About{" "}
+            <span className="text-yellow-300">CycleCipher</span>
+          </h1>
+        </div>
+        <p
+          className="aboutparagraph flex justify-center "
+          style={{
+            color: "var(--color-palepurple)",
+            textIndent: "0", // optional, if needed
+          }}
+        >
+          <span className="inline">
+            This section covers everything you need to know about CycleCipher as
+            well as the story behind it.&nbsp;
+          </span>
+          <br />
+          <span className="inline-block">
+            Answering three major questions: What? Why? and How?
+          </span>
+        </p>
       </div>
     </section>
   );

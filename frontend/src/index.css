@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+  --color-palepurple: #9B9BBD;
+}
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -1069,6 +1073,16 @@ nav {
   font-size:1.2rem;
   margin: 0 auto;
   margin-top: 60px; 
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.abouttitletext {
+  font-size: 3rem;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.aboutparagraph {
+  margin: 0 auto;
+  margin-top: 10px; 
+  font-size: 1.2rem;
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 ******************************
