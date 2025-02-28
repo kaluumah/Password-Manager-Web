@@ -62,32 +62,40 @@ const AboutSection = () => {
       <section className="flex justify-center items-center py-16">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-6">
           {/* What Card */}
-          <div
-            className="bg-gradient-to-b from-[#44276a] to-[#1a0b2e] p-6 rounded-2xl shadow-lg text-center text-white border-2 border-[#fde047] 
-          
-          "
-          >
-            <h3 className="text-3xl font-bold mb-4 text-[#d4c2f0]">What?</h3>
-            <p className="text-palepurple text-m leading-relaxed">
-              CycleCipher is a revolutionary platform designed to streamline and
-              secure your password management, offering a seamless way to
-              generate, store, and autofill credentials across your devices.
-              CycleCipher is a revolutionary platform designed to streamline and
-              secure your password management, offering a seamless way to
-              generate, store, and autofill credentials across your devices.
-              CycleCipher is a revolutionary platform designed to streamline and
-              secure your password management, offering a seamless way to
-              generate, store, and autofill credentials across your devices.
-              CycleCipher is a revolutionary platform designed to streamline and
-              secure your password management, offering a seamless way to
-              generate, store, and autofill credentials across your devices.
-            </p>
+          <div className="aboutcards flip-card p-6 text-center text-white border-2 border-[#fde047] cursor-pointer">
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
+                <h3 className="text-3xl font-bold mb-4 text-[#d4c2f0]">
+                  What?
+                </h3>
+                <p className="text-palepurple  leading-relaxed">
+                  CycleCipher is a revolutionary platform designed to streamline
+                  and secure your password management, offering a seamless way
+                  to generate, store, and autofill credentials across your
+                  devices. CycleCipher is a revolutionary platform designed to
+                  streamline and secure your password management, offering a
+                  seamless way to generate, store, and autofill credentials
+                  across your devices. CycleCipher is a revolutionary platform
+                  designed to streamline and secure your password management,
+                  offering a seamless way to generate, store, and autofill
+                  credentials across your devices. CycleCipher is a
+                  revolutionary platform designed to streamline and secure your
+                  password management, offering a seamless way to generate,
+                  store, and autofill credentials across your devices.
+                </p>
+              </div>
+
+              <div class="flip-card-back">
+                <p class="title">BACK</p>
+                <p>Leave Me</p>
+              </div>
+            </div>
           </div>
 
           {/* Why Card */}
-          <div className="bg-gradient-to-b from-[#44276a] to-[#1a0b2e] p-6 rounded-2xl shadow-lg text-center text-white border-2 border-[#fde047]">
+          <div className="aboutcards p-6  text-center text-white border-2 border-[#fde047] cursor-pointer">
             <h3 className="text-3xl font-bold mb-4 text-[#d4c2f0]">Why?</h3>
-            <p className="text-palepurple text-m leading-relaxed">
+            <p className="text-palepurple  leading-relaxed">
               CycleCipher is a revolutionary platform designed to streamline and
               secure your password management, offering a seamless way to
               generate, store, and autofill credentials across your devices.
@@ -104,9 +112,9 @@ const AboutSection = () => {
           </div>
 
           {/* How Card */}
-          <div className="bg-gradient-to-b from-[#44276a] to-[#1a0b2e] p-6 rounded-2xl shadow-lg text-center text-white border-2 border-[#fde047]">
+          <div className="aboutcards p-6  text-center text-white border cursor-pointer">
             <h3 className="text-3xl font-bold mb-4 text-[#d4c2f0]">How?</h3>
-            <p className="text-palepurple text-m leading-relaxed">
+            <p className="text-palepurple  leading-relaxed">
               CycleCipher is a revolutionary platform designed to streamline and
               secure your password management, offering a seamless way to
               generate, store, and autofill credentials across your devices.
