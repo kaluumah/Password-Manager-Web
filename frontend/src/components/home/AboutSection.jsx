@@ -36,7 +36,13 @@ const AboutSection = () => {
       {/* Main About Section  content*/}
       <div>
         <div className="abouttitle flex justify-center items-center">
-          <h6 className=" text-2l text-white">About</h6>
+          <div className="inputbox">
+            <i></i>
+          </div>&nbsp; 
+          <h6 className=" text-2l text-white">About</h6>&nbsp;
+          <div className="inputbox">
+            <i></i>
+          </div>
         </div>
         <div className="flex justify-center text-center mt-10">
           <h1 className="abouttitletext text-white font-semibold inline-block">

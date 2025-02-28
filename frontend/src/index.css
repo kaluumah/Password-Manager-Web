@@ -280,6 +280,25 @@ nav {
 
 /* ===== About Section Begining ===== */
 
+/* From Uiverse.io by VijinV */ 
+.inputbox {
+  position: relative;
+  width: 196px;
+}
+
+.inputbox i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #6e11b0;
+  border-radius: 4px;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: 9;
+}
+
 /*About Section Animation*/
 /* From Uiverse.io by bociKond */ 
 /* From Uiverse.io by Admin12121 */ 
