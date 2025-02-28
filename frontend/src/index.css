@@ -1113,7 +1113,7 @@ box-shadow:  20px 20px 57px #5212a6,
   margin: 0 auto;
    
   
-  --size: 32px;
+  --size: 40px;
   --duration: 800ms;
   height: calc(var(--size) * 2);
   width: calc(var(--size) * 3);
@@ -1294,4 +1294,10 @@ box-shadow:  20px 20px 57px #5212a6,
   100% {
     transform: translate(100%, 100%);
   }
+}
+.featurestitle {
+  
+  margin: 0 auto;
+  font-size:1.2rem;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
