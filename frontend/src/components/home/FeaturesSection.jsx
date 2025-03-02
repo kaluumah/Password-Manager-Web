@@ -32,9 +32,9 @@ const FeaturesSection = () => {
       </div>
 
       <div>
-        <div className="featurestitle flex text-white justify-center items-center">
+        <div className="featurestitle flex  justify-center items-center">
         
-        <h6 className="mt-40">Features</h6>
+        <h6 className="text-white mt-40 text-2l">Features</h6>
       </div>
       </div>
     </section>
