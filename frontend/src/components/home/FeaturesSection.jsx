@@ -64,6 +64,7 @@ const FeaturesSection = () => {
       </div>
 
       {/* Features section and security card */}
+      
     </section>
   );
 };
