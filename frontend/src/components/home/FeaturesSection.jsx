@@ -31,10 +31,16 @@ const FeaturesSection = () => {
         </div>
       </div>
 
-      <div>
-        <div className="featurestitle flex  justify-center items-center">
+      <div className="featuresdiv mt-40">
         
-        <h6 className="text-white mt-40 text-2l">Features</h6>
+        <div className="featurestitle flex justify-center items-center ">
+        <div className="inputbox">
+            <i></i>
+          </div>&nbsp;
+        <h6 className="text-white text-2l">Features</h6>&nbsp;
+        <div className="inputbox">
+            <i></i>
+          </div>
       </div>
       </div>
     </section>
