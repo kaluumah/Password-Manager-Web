@@ -87,11 +87,10 @@ const FeaturesSection = () => {
                     <span></span>
                     <span></span>
                   </div>
-                  <p id="prompt">HOVER ME</p>
+                  <p id="prompt">Advanced password generation algorithm</p>
                   <div class="title">
-                    CYBER
-                    <br />
-                    CARD
+                  Features
+                    
                   </div>
                   <div className="glowing-elements">
                     <div className="glow-1"></div>
@@ -99,8 +98,7 @@ const FeaturesSection = () => {
                     <div className="glow-3"></div>
                   </div>
                   <div className="subtitle">
-                    <span>INTERACTIVE</span>
-                    <span className="highlight">3D EFFECT</span>
+                    <span className="highlight">CycleCipher</span>
                   </div>
                   <div className="card-particles">
                     <span></span>
