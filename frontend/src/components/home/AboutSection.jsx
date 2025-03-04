@@ -38,7 +38,8 @@ const AboutSection = () => {
         <div className="abouttitle flex justify-center items-center">
           <div className="inputbox">
             <i></i>
-          </div>&nbsp; 
+          </div>
+          &nbsp;
           <h6 className=" text-2l text-white">About</h6>&nbsp;
           <div className="inputbox">
             <i></i>
@@ -69,20 +70,25 @@ const AboutSection = () => {
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-6">
           {/* What Card */}
           <div className="aboutcards p-6 text-center text-white border-2 border-[#fde047] cursor-pointer">
-            <h3 className="text-3xl font-bold mb-4 text-[#d4c2f0]">What?</h3>
+            <h3 className="text-3xl font-bold mb-4 text-[#d4c2f0]">
+              What is CycleCipher?
+            </h3>
             <p className="text-palepurple  leading-relaxed">
-              CycleCipher is a revolutionary platform designed to streamline and
-              secure your password management, offering a seamless way to
-              generate, store, and autofill credentials across your devices.
-              CycleCipher is a revolutionary platform designed to streamline and
-              secure your password management, offering a seamless way to
-              generate, store, and autofill credentials across your devices.
-              CycleCipher is a revolutionary platform designed to streamline and
-              secure your password management, offering a seamless way to
-              generate, store, and autofill credentials across your devices.
-              CycleCipher is a revolutionary platform designed to streamline and
-              secure your password management, offering a seamless way to
-              generate, store, and autofill credentials across your devices.
+              CycleCipher is an advanced, autonomous password security platform
+              that revolutionizes digital identity protection. It's an
+              intelligent system designed to completely transform how users
+              manage and secure their online credentials. Unlike traditional
+              password managers, CycleCipher goes beyond simple storage by
+              actively generating, rotating, and monitoring passwords across all
+              your digital platforms with zero manual intervention. 
+              <>
+                <h2 className="text-yellow-300 mt-3">At its core, CycleCipher is:</h2>
+                <ul>
+                  <li>An AI-powered password security ecosystem</li>
+                  <li>An autonomous security management platform</li>
+                  <li>A next-generation digital identity protection system</li>
+                </ul>
+              </>
             </p>
           </div>
 
