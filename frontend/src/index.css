@@ -1094,11 +1094,11 @@ nav {
   margin-top: 60px; 
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
-.abouttitletext {
+.abouttitletext, .featurestitletext {
   font-size: 3rem;
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
-.aboutparagraph {
+.aboutparagraph, .featuresparagraph {
   margin: 0 auto;
   margin-top: 20px; 
   font-size: 1.2rem;
@@ -1139,7 +1139,7 @@ box-shadow:  20px 20px 57px #5212a6,
   position: relative;
   transform-style: preserve-3d;
   transform-origin: 50% 50%;
-  margin-top: 100px;
+  margin-top: 200px;
   transform: rotateX(60deg) rotateZ(45deg) rotateY(0deg) translateZ(0px);
 }
 
