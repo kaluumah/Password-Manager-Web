@@ -1327,13 +1327,13 @@ box-shadow:  20px 20px 57px #5212a6,
   margin: 0 auto;
   margin-top: 30px;
   position: relative;
-  width: 190px;
+  width: 200px;
   height: 254px;
   transition: 200ms;
 }
 
 .containerfeatures:active {
-  width: 180px;
+  width: 250px;
   height: 245px;
 }
 

@@ -66,63 +66,57 @@ const FeaturesSection = () => {
       {/* Features section and security card */}
 
       <section className="flex justify-center items-center py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-6">
-          <div className="containerfeatures noselect">
-            <div className="canvas">
-              <div className="tracker tr-1"></div>
-              <div className="tracker tr-2"></div>
-              <div className="tracker tr-3"></div>
-              <div className="tracker tr-4"></div>
-              <div className="tracker tr-5"></div>
-              <div className="tracker tr-6"></div>
-              <div className="tracker tr-7"></div>
-              <div className="tracker tr-8"></div>
-              <div className="tracker tr-9"></div>
-              <div id="card">
-                <div className="card-content">
-                  <div className="card-glare"></div>
-                  <div className="cyber-lines">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-6">
+          {[1, 2, 3, 4, 5].map((index) => (
+            <div
+              key={index}
+              className="containerfeatures noselect grid grid-cols-1 md:grid-cols-3 gap-10 px-10"
+            >
+              <div>
+                <div className="canvas">
+                  {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((trackerIndex) => (
+                    <div
+                      key={trackerIndex}
+                      className={`tracker tr-${trackerIndex}`}
+                    ></div>
+                  ))}
+                  <div id="card">
+                    <div className="card-content">
+                      <div className="card-glare"></div>
+                      <div className="cyber-lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                      <p id="prompt">Advanced password generation algorithm</p>
+                      <div className="title">Features</div>
+                      <div className="glowing-elements">
+                        <div className="glow-1"></div>
+                        <div className="glow-2"></div>
+                        <div className="glow-3"></div>
+                      </div>
+                      <div className="subtitle">
+                        <span className="highlight">CycleCipher</span>
+                      </div>
+                      <div className="card-particles">
+                        {[1, 2, 3, 4, 5, 6].map((particleIndex) => (
+                          <span key={particleIndex}></span>
+                        ))}
+                      </div>
+                      <div className="corner-elements">
+                        {[1, 2, 3, 4].map((cornerIndex) => (
+                          <span key={cornerIndex}></span>
+                        ))}
+                      </div>
+                      <div className="scan-line"></div>
+                    </div>
                   </div>
-                  <p id="prompt">Advanced password generation algorithm</p>
-                  <div class="title">
-                  Features
-                    
-                  </div>
-                  <div className="glowing-elements">
-                    <div className="glow-1"></div>
-                    <div className="glow-2"></div>
-                    <div className="glow-3"></div>
-                  </div>
-                  <div className="subtitle">
-                    <span className="highlight">CycleCipher</span>
-                  </div>
-                  <div className="card-particles">
-                    <span></span>
-                    <span></span>
-                    <span></span> <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-                  <div className="corner-elements">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-                  <div className="scan-line"></div>
                 </div>
               </div>
-
-              {/*Second Row Cards */}
             </div>
-            
-          </div>
+          ))}
         </div>
-        
       </section>
     </section>
   );
