@@ -56,13 +56,14 @@ const FeaturesSection = () => {
           }}
         >
           <p className="inline-block">
-            Here are basics and advanced features that will be unveiled and
-            posted on our blog page before new updates and many more to
-            come.&nbsp;
+            Here we present to you the basics features and security
+            implementation that makes <b>CycleCipher</b> a unique app.&nbsp;
             <p>Check out the basic and core features of the app</p>
           </p>
         </p>
       </div>
+
+      {/* Features section and security card */}
     </section>
   );
 };
