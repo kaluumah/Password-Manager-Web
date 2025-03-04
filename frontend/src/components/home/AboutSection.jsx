@@ -83,11 +83,11 @@ const AboutSection = () => {
               your digital platforms with zero manual intervention. 
               <>
                 <h2 className="text-yellow-300 mt-3">At its core, CycleCipher is:</h2>
-                <ul>
+                <ol className="mt-2">
                   <li>An AI-powered password security ecosystem</li>
                   <li>An autonomous security management platform</li>
                   <li>A next-generation digital identity protection system</li>
-                </ul>
+                </ol>
               </>
             </p>
           </div>
