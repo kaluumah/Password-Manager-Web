@@ -67,7 +67,7 @@ const AboutSection = () => {
       </div>
 
       <section className="flex justify-center items-center py-15">
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 px-6">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 px-6 ">
           {/* What Card */}
           <div className="aboutcards p-6 text-center text-white border-2 border-[#fde047] cursor-pointer">
             <h3 className="text-3xl font-bold mb-10 text-[#d4c2f0]">
