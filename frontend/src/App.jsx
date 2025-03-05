@@ -2,6 +2,7 @@
 import HeroSection from "./components/home/HeroSection";
 import AboutSection from "./components/home/AboutSection";
 import FeaturesSection from "./components/home/FeaturesSection";
+import IntegrationSection from "./components/home/IntegrationSection";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <HeroSection />
       <AboutSection/>
       <FeaturesSection/>
+      <IntegrationSection/>
     </div>
   );
 }
