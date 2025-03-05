@@ -66,11 +66,11 @@ const AboutSection = () => {
         </p>
       </div>
 
-      <section className="flex justify-center items-center py-16">
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-6">
+      <section className="flex justify-center items-center py-15">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 px-6">
           {/* What Card */}
           <div className="aboutcards p-6 text-center text-white border-2 border-[#fde047] cursor-pointer">
-            <h3 className="text-3xl font-bold mb-4 text-[#d4c2f0]">
+            <h3 className="text-3xl font-bold mb-10 text-[#d4c2f0]">
               What is CycleCipher?
             </h3>
             <p className="text-palepurple  leading-relaxed">
@@ -82,52 +82,15 @@ const AboutSection = () => {
               goes beyond simple storage by actively generating, rotating, and
               monitoring passwords across all your digital platforms with zero
               manual intervention.
-              <>
-                <h2 className="text-yellow-300 mt-3">
-                  At its core, CycleCipher is:
-                </h2>
-                <ol className="mt-2">
-                  <li>An AI-powered password security ecosystem</li>
-                  <li>An autonomous security management platform</li>
-                  <li>A next-generation digital identity protection system</li>
-                </ol>
-              </>
+              
             </p>
           </div>
 
-          {/* Why Card */}
-          <div className="aboutcards p-6  text-center text-white border-2 border-[#fde047] cursor-pointer">
-            <h3 className="text-3xl font-bold mb-4 text-[#d4c2f0]">
-              Why CycleCipher?
-            </h3>
-            <p className="text-palepurple  leading-relaxed">
-              <b className="text-yellow-300">
-                Traditional password management is fundamentally broken:
-              </b>
-
-              <ol className="text-[#d4c2f0] mt-2">
-                <li>An AI-powered password security ecosystem</li>
-                <li>An autonomous security management platform</li>
-                <li>A next-generation digital identity protection system</li>
-              </ol>
-            </p>
-            <p className=" mt-5">
-              <b className="text-yellow-300">
-                CycleCipher solves these critical problems by:
-              </b>
-              <p className="text-[#d4c2f0] mt-2">
-                Eliminating human error in password creation; Providing
-                military-grade security automatically; Removing the cognitive
-                burden of password management; Offering proactive, intelligent
-                security that adapts in real-time Making enterprise-level
-                security accessible to everyone.
-              </p>
-            </p>
-          </div>
+         
 
           {/* How Card */}
           <div className="aboutcards p-6  text-center text-white border cursor-pointer">
-            <h3 className="text-3xl font-bold mb-4 text-[#d4c2f0]">
+            <h3 className="text-3xl font-bold mb-10 text-[#d4c2f0]">
               How Will CycleCipher Operate?
             </h3>
             <p className="text-palepurple  leading-relaxed">

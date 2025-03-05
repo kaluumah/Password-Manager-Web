@@ -2,8 +2,8 @@ import React from "react";
 
 const IntegrationSection = () => {
   return (
-    <section>
-      <div className="loaderIntegration flex justify-center items-center">
+    <section className="justify-center items-center mt-40">
+      <div className="loaderIntegration justify-center items-center">
         <div class="boxIntegartion box-1Integration">
           <div class="side-left"></div>
           <div class="side-right"></div>
@@ -26,7 +26,7 @@ const IntegrationSection = () => {
         </div>
       </div>
 
-      <div className="featuresdiv mt-60">
+      <div className="featuresdiv mt-40">
         <div className="integrationtitle flex justify-center items-center ">
           <div className="inputbox">
             <i></i>
@@ -40,7 +40,8 @@ const IntegrationSection = () => {
 
         <div className="flex justify-center text-center mt-10">
           <h1 className="integrationtitletext text-white font-semibold inline-block">
-            <span className="text-yellow-300">CycleCipher</span> Main Features{" "}
+          Main Features{" "}
+            <span className="text-yellow-300">CycleCipher</span> 
           </h1>
         </div>
         <p

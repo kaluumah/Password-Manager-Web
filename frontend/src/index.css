@@ -1132,9 +1132,7 @@ box-shadow:  20px 20px 57px #5212a6,
 
 
 .boxes {
-  margin: 0 auto;
-   
-  
+  margin: 0 auto
   --size: 40px;
   --duration: 800ms;
   height: calc(var(--size) * 2);
@@ -1993,7 +1991,6 @@ box-shadow:  20px 20px 57px #5212a6,
 
 .loaderIntegration {
   margin: 0 auto;
-  margin-top: 60px;
   scale: 3;
   height: 50px;
   width: 40px;
