@@ -38,11 +38,8 @@ body {
 /*Here's the navbar styles. The complete code is found in the shared/Navbar.jsx path*/
 nav {
   border-radius: 25px 25px;
-}
-nav {
   position: fixed; /* or sticky */
-  
-  width: 90%;
+ 
   z-index: 1000; /* High z-index to ensure it's above other elements */
 }
 
