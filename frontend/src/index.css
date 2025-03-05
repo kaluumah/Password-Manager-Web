@@ -39,6 +39,12 @@ body {
 nav {
   border-radius: 25px 25px;
 }
+nav {
+  position: fixed; /* or sticky */
+  
+  width: 90%;
+  z-index: 1000; /* High z-index to ensure it's above other elements */
+}
 
 .navlinks, .navbarbutton {
   font-size:1.2rem;
@@ -1088,7 +1094,7 @@ nav {
   }
 }
 /*End About Section Animation*/
-.abouttitle{
+.abouttitle, .integrationtitle{
   font-size:1.2rem;
   margin: 0 auto;
   margin-top: 60px; 
