@@ -39,7 +39,7 @@ const IntegrationSection = () => {
         </div>
 
         <div className="flex justify-center text-center mt-10">
-          <h1 className="featurestitletext text-white font-semibold inline-block">
+          <h1 className="integrationtitletext text-white font-semibold inline-block">
             <span className="text-yellow-300">CycleCipher</span> Main Features{" "}
           </h1>
         </div>
