@@ -1091,35 +1091,150 @@ nav {
   }
 }
 /*End About Section Animation*/
-.abouttitle, .integrationtitle{
-  font-size:1.2rem;
+/* Styles pour les titres et paragraphes */
+.abouttitle, .integrationtitle {
+  font-size: 1.2rem;
   margin: 0 auto;
   margin-top: 60px; 
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
+
 .abouttitletext, .featurestitletext, .integrationtitletext {
   font-size: 3rem;
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
+
 .aboutparagraph, .featuresparagraph {
   margin: 0 auto;
   margin-top: 20px; 
   font-size: 1.2rem;
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
+
+/* Nouveau style pour les cartes */
 .aboutcards {
   font-size: 1.1rem;
-  transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
   font-family: 'Plus Jakarta Sans', sans-serif;
-  border-radius: 30px;
-  border: 3px solid #e5e5e5; /* Example using yellow-300 */
-  background: transparent;
-box-shadow:  20px 20px 57px #5212a6,
--20px -20px 57px #6416ca;
+  border-radius: 24px;
+  border: 2px solid rgba(229, 229, 229, 0.1);
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 15px 35px rgba(82, 18, 166, 0.3);
+  transition: all 0.5s cubic-bezier(0.15, 0.83, 0.66, 1);
+  height: 280px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
 }
+
 .aboutcards:hover {
-  transform: scale(1.08);
-  border: 4px solid #fde047;
+  transform: translateY(-10px);
+  border-color: #fde047;
+  box-shadow: 0 20px 45px rgba(82, 18, 166, 0.5), 0 0 15px rgba(253, 224, 71, 0.3);
+}
+
+.aboutcards.expanded {
+  height: auto;
+  min-height: 320px;
+}
+
+/* Animation pour le contenu */
+.card-content {
+  transition: max-height 0.5s ease-out, opacity 0.3s ease-in-out;
+}
+
+/* Custom animation pour les éléments */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Styles pour les titres et paragraphes */
+.abouttitle, .integrationtitle {
+  font-size: 1.2rem;
+  margin: 0 auto;
+  margin-top: 60px; 
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.abouttitletext, .featurestitletext, .integrationtitletext {
+  font-size: 3rem;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.aboutparagraph, .featuresparagraph {
+  margin: 0 auto;
+  margin-top: 20px; 
+  font-size: 1.2rem;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Nouveau style pour les cartes */
+.aboutcards {
+  font-size: 1.1rem;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  border-radius: 24px;
+  border: 2px solid rgba(229, 229, 229, 0.1);
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 15px 35px rgba(82, 18, 166, 0.3);
+  transition: all 0.5s cubic-bezier(0.15, 0.83, 0.66, 1);
+  height: 280px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.aboutcards:hover {
+  transform: translateY(-10px);
+  border-color: #fde047;
+  box-shadow: 0 20px 45px rgba(82, 18, 166, 0.5), 0 0 15px rgba(253, 224, 71, 0.3);
+}
+
+.aboutcards.expanded {
+  height: auto;
+  min-height: 320px;
+}
+
+/* Animation pour le contenu */
+.card-content {
+  transition: max-height 0.5s ease-out, opacity 0.3s ease-in-out;
+}
+
+/* Custom animation pour les éléments */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.aboutcards::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(253, 224, 71, 0.1) 0%, rgba(0, 0, 0, 0) 70%);
+  transform: scale(0);
+  transition: transform 0.8s ease-out;
+  z-index: 0;
+}
+
+.aboutcards:hover::before {
+  transform: scale(1);
+}
+
+/* Style pour le texte en surbrillance */
+.text-palepurple {
+  color: var(--color-palepurple, #d4c2f0);
+  line-height: 1.6;
+}
+
+/* Animation pour les icônes et éléments visuels */
+.aboutcards:hover .w-40 {
+  animation: float 6s ease-in-out infinite;
 }
 /*************END OF ABOUT SECTION ******************/
 
