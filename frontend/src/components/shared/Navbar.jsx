@@ -29,9 +29,9 @@ function HeroSection() {
     <section className="flex justify-center items-center w-full">
       <div className="py-10 container mx-auto">
         <nav
-          className={`fixed top-3 left-1/2 transform -translate-x-1/2 flex justify-between items-center shadow-lg px-5 py-3 transition-all duration-300 
+          className={`fixed top-3 left-1/2  -translate-x-1/2 flex justify-between items-center shadow-lg px-15 py-3 transition-all duration-300 
           ${scrolling ? "backdrop-blur-md shadow-lg" : "bg-transparent"}`}
-          style={{ width: "90%", maxWidth: "1200px" }} // Ensuring it stays centered nicely
+          // Ensuring it stays centered nicely
         >
           {/* Logo & Mobile Menu Button (side by side) */}
           <div className="flex items-center space-x-4">
