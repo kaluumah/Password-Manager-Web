@@ -39,6 +39,7 @@ body {
 nav {
   border-radius: 25px 25px;
   position: fixed; /* or sticky */
+  margin-left: 100px;
  
   z-index: 1000; /* High z-index to ensure it's above other elements */
 }
