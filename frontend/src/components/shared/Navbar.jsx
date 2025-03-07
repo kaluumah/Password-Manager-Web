@@ -39,7 +39,7 @@ function HeroSection() {
 
             {/* Mobile Menu Button - Only show on mobile */}
             <button
-              className="text-white text-2xl md:hidden ml-4"
+              className="text-white text-2xl md:hidden mx-auto"
               onClick={toggleMobileMenu}
             >
               <FaBars />
