@@ -20,7 +20,7 @@ const HeroSection = () => {
           <div class="bg">
             <div class="bg-inner"></div>
           </div>
-          <div class="text">MVP C 1.0 ReleaseComing Soon</div>
+          <div class="text">MVP C 1.0 Release Coming Soon</div>
         </button>
       </div>
 
