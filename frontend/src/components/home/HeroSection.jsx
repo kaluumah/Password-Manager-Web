@@ -20,14 +20,14 @@ const HeroSection = () => {
           <div class="bg">
             <div class="bg-inner"></div>
           </div>
-          <div class="text">MVP C 1.0 Release Coming Soon</div>
+          <div class="text">MVP C 1.0 ReleaseComing Soon</div>
         </button>
       </div>
 
       <div className=" herotextdiv flex text-center text-white ">
         <h1 className=" herotext mt-15 font-semibold inline-block">
           The Future of{" "}
-          <span className="text-yellow-300">Passwords Security</span> is Here !
+          <span className="text-yellow-300">Passwords Security</span>  is Here !
         </h1>
       </div>
       <div className=" flex items-center justify-center p-4 mt-20 ">
