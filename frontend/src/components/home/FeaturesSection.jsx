@@ -59,6 +59,7 @@ const CycleCipherCard = ({
 const FeaturesSection = () => {
   return (
     <section>
+      
       {/* Top features entry animation */}
       
 
